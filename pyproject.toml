@@ -1,0 +1,11 @@
+[project]
+name = "rl-study"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gymnasium[classic-control]>=1.4.0",
+    "ipykernel<7",
+    "matplotlib>=3.11.2",
+]
